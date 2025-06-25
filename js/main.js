@@ -37,7 +37,7 @@ async function fetchLastStatus() {
 
 async function sendCommand(status_clave) {
   const payload = {
-    name: "Dispostivo IoT de Víctor",
+    name: "Dispostivo IoT de Tania",
     ip: clientIp,
     status_clave: status_clave,
     status_texto: statusMap[status_clave]
